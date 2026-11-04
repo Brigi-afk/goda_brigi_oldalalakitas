@@ -1,0 +1,65 @@
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "h h"
+    "n n"
+    "s as"
+    "ar as"
+    "f f";
+    border: 1px solid black;
+    padding: 5px;
+}
+
+header{
+    grid-area: h;
+    background-color: red;
+    border: 2px solid black;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+nav{
+    grid-area: n;
+    background-color: rgb(96, 197, 255);
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+section{
+    grid-area: s;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+article{
+    grid-area: ar;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+aside{
+    grid-area: as;
+    background-color: pink;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+footer{
+    grid-area: f;
+    background-color: grey;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
